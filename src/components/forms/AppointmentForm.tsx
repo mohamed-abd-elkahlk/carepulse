@@ -185,7 +185,6 @@ const AppointmentForm = ({
                 name="reason"
                 label="Appointment reason"
                 placeholder="Annual montly check-up"
-                disabled={type === "schedule"}
               />
 
               <CustomFormField
@@ -194,7 +193,6 @@ const AppointmentForm = ({
                 name="note"
                 label="Comments/notes"
                 placeholder="Prefer afternoon appointments, if possible"
-                disabled={type === "schedule"}
               />
             </div>
           </>
